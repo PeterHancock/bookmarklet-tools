@@ -1,0 +1,9 @@
+{
+  "name": "bookmarklet-maker",
+  "version": "0.0.0",
+  "dependencies": {
+    "bookmarklet": "0.0.4",
+    "mustache": "^0.8.2",
+    "open": "0.0.5"
+  }
+}

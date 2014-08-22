@@ -1,9 +1,12 @@
 {
-  "name": "bookmarklet-maker",
+  "name": "make-bookmarklet",
   "version": "0.0.0",
   "dependencies": {
     "bookmarklet": "0.0.4",
     "mustache": "^0.8.2",
-    "open": "0.0.5"
-  }
+    "open": "0.0.5",
+    "tmp": "0.0.24"
+    },
+    "bin": "bin/main"
+
 }

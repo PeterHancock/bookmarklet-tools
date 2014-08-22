@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var bookmarketTools = require('../bookmarket.js');
+
+var openLink = require('../open-link.js');
+
+name = process.argv[2] || 'bookmarklet';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+
+var buffer = '';
+process.stdin.on('data', function(data) {
+    buffer += data;
+});
+
+process.stdin.on('end', function() {
+    openLink(bookmarketTools(buffer), name, function(err) {});
+});

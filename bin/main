@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-var bookmarketTools = require('../bookmarket.js');
+var bookmarketTools = require('../bookmarklet');
 
-var openLink = require('../open-link.js');
+var openLink = require('../open-link');
 
 name = process.argv[2] || 'bookmarklet';
 

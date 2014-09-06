@@ -5,8 +5,8 @@
     "bookmarklet": "0.0.4",
     "mustache": "^0.8.2",
     "open": "0.0.5",
-    "tmp": "0.0.24"
-    },
-    "bin": "bin/main"
-
+    "tmp": "0.0.24",
+    "concat-stream": "~1.4.6"
+  },
+  "bin": "bin/main"
 }
